@@ -1,0 +1,144 @@
+.dashboard {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.dashboard-header {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 30px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.dashboard-header h1 {
+  color: #333;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+.creatures-section,
+.add-creature-section {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 30px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.creatures-section h2,
+.add-creature-section h3 {
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.creatures-list {
+  list-style: none;
+}
+
+.creature-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.creature-info {
+  flex: 1;
+}
+
+.creature-info strong {
+  display: block;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.power {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+.add-creature-form {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  outline: 1px solid #0066cc;
+}
+
+.btn-add {
+  width: 100%;
+  padding: 10px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-add:hover {
+  background-color: #0052a3;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  padding: 12px;
+  margin-bottom: 20px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.no-creatures {
+  color: #666;
+  text-align: center;
+  padding: 20px;
+}
